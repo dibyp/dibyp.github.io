@@ -1,0 +1,57 @@
+.speakers-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*This should be before .layout-half to give the effect first*/
+.speaker {
+  float: left;
+  width: 100%;
+}
+
+.layout-half {
+  width: 50%;
+}
+
+.speaker-photo {
+  float: left;
+  width: 50%;
+  /*For making the clear height size as same as the width size, they use 'auto' for height */
+  height: auto;
+}
+
+.align-right {
+  float: right;
+}
+
+.speaker-bio {
+  text-align: center;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.speaker-name {
+  font-family: Lobster;
+  margin-top: 2.45em;
+  margin-bottom: 1.8em;
+  font-size: 1.1875em;
+}
+
+.speaker-desc {
+  font-size: 0.875em;
+}
+
+.speaker-desc::after {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  width: 5px;
+  border: 10px solid #000;
+}
