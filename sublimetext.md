@@ -56,7 +56,9 @@ scope 요소에 text.html을 입력
 </snippet>
 ```
 
+how to call snippet
+snippet 사용하는 방법은, tabTrigger 요소에 입력한 trigger를 입력하고 tab 키를 누르면 자동으로 등록 코드가 작성된다.
 스니펫 관련 나머지 내용
-- how to call snippet
+
 - snippet 파일들의 기본 위치
 - snippet 개별 폴더 생성 및 관리
